@@ -1,0 +1,18 @@
+.ns-img {
+    width: 100%;
+}
+.navbar {
+    justify-content: center;
+    background-color: rgba(209, 111, 66, 0.24);
+}
+.nav-text {
+color: black;
+font-size: large;
+}
+.navbtn {
+margin-top: 5px;
+}
+.navbtn:hover {
+    opacity: 0.7;
+    background-color:rgba(255, 0, 0, 0.404);
+}
