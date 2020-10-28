@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from 'react-router-dom';
-import Nslogo from "../../assets/nslogo.png";
+import Nslogo from "../../assets/nstiny.png";
 import styled from 'styled-components';
 import './styles.css';
 import Burger from '../Burger/index';
@@ -8,11 +7,12 @@ import Burger from '../Burger/index';
 export default function Navbar() {
     const Nav = styled.nav`
   width: 100%;
-  height: 105px;
+  height: 90px;
   border-bottom: 2px solid #f1f1f1;
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
+  background-color: #8CBEB2;
 
   .logo {
     padding: 15px 0;

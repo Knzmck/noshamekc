@@ -11,6 +11,12 @@ height: 263px;
     display: flex;
     justify-content: center;
 }
+.link {
+    color: white;
+}
+.btn {
+    background-color: #F06060;
+}
 `
 const GetInvolved = () => {
     return (

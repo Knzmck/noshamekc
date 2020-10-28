@@ -6,6 +6,8 @@ import GetInvolved from "./pages/GetInvolved/index";
 import Contact from "./pages/Contact/index";
 import FAQ from "./pages/FAQ/index";
 import Navbar from './components/Navbar/index';
+import DonationLocations from './pages/DonationLocations/index';
+
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Route exact path="/faq" component={FAQ} />
         <Route exact path="/getinvolved" component={GetInvolved} />
         <Route exact path="/contact" component={Contact} />
+        <Route exact path="/locations" component={DonationLocations} />
       </div>
     </Router>
   )

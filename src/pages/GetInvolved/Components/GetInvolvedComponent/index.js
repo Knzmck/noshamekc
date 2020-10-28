@@ -11,7 +11,7 @@ const cardInfo = [
         alt: "Pads, Over-The-Counter Medications, Tampons",
         desc: "We are always accepting donations big or small at our many donation locations!",
         btnName: "Donation Locations",
-        btnLink: ""
+        btnLink: "/locations"
     },
     {
         title: "Volunteer Opportunities",
@@ -19,7 +19,7 @@ const cardInfo = [
         alt: "People volunteering at the Park in Kansas City for No Shame",
         desc: "Interested in volunteering? Contact us or check out our Facebook Page for the most current volunteer Opportunities!",
         btnName: "Connect With Us",
-        btnLink: ""
+        btnLink: "/contact"
     }
 ]
 const Connect = () => {
@@ -28,7 +28,7 @@ const Connect = () => {
             {cardInfo.map(cardInfo =>
                 <div className="card">
                     <img className="card-img-top img" src={cardInfo.img} alt={cardInfo.alt}></img>
-                    <button className="btn btn-info" onClick={() => window.open(cardInfo.btnLink)}>{cardInfo.btnName}</button>
+                    <button className="btn btn-info"><Link class="link" to={cardInfo.btnLink}>{cardInfo.btnName}</Link></button>
                     <div className="card-body">
                         <p className="card-text">
                             {cardInfo.desc}</p>
@@ -36,7 +36,7 @@ const Connect = () => {
                 </div>
             )}
             <div className="card">
-                <img className="card-img-top img" src={StuffImg} alt="Feminine Hygiene Products"></img>
+                <img className="card-img-top img" src={StuffImg} alt="menstrual and hygiene Products"></img>
                 <button className="btn btn-info" onClick={() => window.open("https://rb.gy/kukrgo")}>Amazon Wishlist</button>
                 <div className="card-body">
                     <p className="card-text">
