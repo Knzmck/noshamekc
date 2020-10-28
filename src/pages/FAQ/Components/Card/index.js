@@ -1,5 +1,4 @@
 import React from "react";
-import { createElement } from 'react-create-element';
 import Faq from "react-faq-component";
 import styled from "styled-components";
 

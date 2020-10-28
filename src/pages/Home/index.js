@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './styles.css';
 import Desktop from './Components/Desktop/index';
 import Mobile from './Components/Mobile/index';

@@ -33,7 +33,7 @@ const Nic = () => {
         <Div>
             <section className="card">
                 <h3> A Message from the founder of No Shame! </h3>
-                <img src ={NicSpringer}></img>
+                <img src ={NicSpringer} alt="Nic Springer"></img>
                 <div className="card-body">
                     <p>"When I was 19, I struggled to find a stable home and provide for myself. Even with working 2 jobs and selling everything I owned I sometimes didn't have enough money to buy myself tampons or pads. I remember one time in particular that I had to resort to stealing tampons from my job’s stockroom. It was embarrassing and heartbreaking and it added unnecessary shame to my life. </p>
 
