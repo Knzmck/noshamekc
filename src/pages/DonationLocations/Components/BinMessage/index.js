@@ -1,5 +1,4 @@
 import React from 'react';
-import BinPic from '../../../../assets/bin.jpg';
 import BinPic2 from '../../../../assets/bin2.jpg';
 import styled from 'styled-components';
 import ItemList from '../ItemList/index';

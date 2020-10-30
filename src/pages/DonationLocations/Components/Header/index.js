@@ -15,8 +15,9 @@ p {
 const Header = () => {
     return (
         <Div className="container">
-            <div class="jumbotron mt-4 text-center">
+            <div class="jumbotron mb-1 mt-4 text-center">
                  <BinMessage />
+                 <p className="mt-2">**If you do not see your donation item on this list, please <a href="/contact">contact us</a>**</p>
             </div>
         </Div>
 
