@@ -19,7 +19,7 @@ const BinMessage = () => {
                 </figure>
                 <section className="col-md-8 mt-2">
                 <h1>Donation Information</h1>
-                    <p>We are so grateful for the following businesses for hosting donation boxes for hygiene and menstrual products!
+                    <p>We are so grateful for all the donations we receive from individuals, businesses and specifically businesses listed below for hosting donation boxes for hygiene and menstrual products!
                     If you are a business interested in hosting a donation location please contact us. We would love to hear from you <i className="fa fa-heart"></i>
                     </p>
                     <ItemList />
