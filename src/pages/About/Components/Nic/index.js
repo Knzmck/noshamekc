@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import NicSpringer from '../../../../assets/nicspringer1.jpg';
 
 const Div = styled.div`
-h3 {
+h2, h5 {
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -27,12 +27,18 @@ img {
     margin-right: auto;
     border-radius: 90%;
 }
+p {
+    font-size: large;
+}
+h2 {
+    font-family: 'Slabo', serif;
+}
 `
 const Nic = () => {
     return (
         <Div>
             <section className="card">
-                <h3> A Message from the founder of No Shame! </h3>
+                <h2> A message from Nic Springer, founder of No Shame! </h2>
                 <img src ={NicSpringer} alt="Nic Springer"></img>
                 <div className="card-body">
                     <p>"When I was 19, I struggled to find a stable home and provide for myself. Even with working 2 jobs and selling everything I owned I sometimes didn't have enough money to buy myself tampons or pads. I remember one time in particular that I had to resort to stealing tampons from my job’s stockroom. It was embarrassing and heartbreaking and it added unnecessary shame to my life. </p>

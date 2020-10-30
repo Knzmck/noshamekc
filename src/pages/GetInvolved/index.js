@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const Div = styled.div`
 img {
-height: 263px;
+height: 310px;
 }
 .card-body {
     display: flex;
@@ -16,11 +16,16 @@ height: 263px;
 }
 .btn {
     background-color: #F06060;
+    font-size: x-large;
+}
+.card-text {
+    font-size: large;
+    text-align: center;
 }
 `
 const GetInvolved = () => {
     return (
-        <Div className="container mt-4"> 
+        <Div className="container mt-4 mb-5"> 
                 <Header /> 
                 <GetInvolvedComponent />
         </Div>

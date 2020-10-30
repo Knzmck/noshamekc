@@ -9,28 +9,19 @@ const Div = styled.div`
 h1 {
     align-text: center;
 }
-.fa-facebook-square {
-    padding: 20px;
-    font-size: 65px;
-    text-align: center;
-    text-decoration: none;
-    color: blue;
-    margin-right: 20px;
+button {
+    padding: 25px;
 }
-.fa-google {
-    padding: 20px;
-    font-size: 65px;
-    text-align: center;
-    text-decoration: none;
-    color: blue;
-    margin-left: 20px;
+svg {
+  height: 100%;
 }
-.fa:hover {
+.fab:hover {
     opacity: 0.7;
   }
   button {
       border: transparent;
-      background: rgba(242,238,209,1) ;
+      background: rgba(247,245,212,0.9724264705882353);
+        margin-right: 20px;
   }
   .email-us {
       font-size: x-large;
@@ -41,7 +32,26 @@ h1 {
   }
   a {
       color: red;
-  }`
+  }
+  p, h1, a {
+    font-family: 'Slabo 27px', serif;
+    },
+  p {
+    font-size: x-large;
+    }
+    .fab {
+    font-size: 2.5rem;
+    }
+    .fa-facebook {
+       color: 	#4267B2;
+    }
+    .fa-twitter {
+        color: #1DA1F2;
+    }
+    .fa-instagram {
+        color: #F56040;
+    }
+  `
 
 const Contact = () => {
     return (
@@ -49,9 +59,10 @@ const Contact = () => {
             <div class="jumbotron text-center mt-5">
                 <p class="lead">Interested in volunteer opportunities?    <i class="fa fa-heart"></i>   Want to become a partner donation location?  <i class="fa fa-heart"></i> Have a donation that needs picked up?  <i class="fa fa-heart"></i>Have a question or comment for us?  <i class="fa fa-heart"></i> Are you in need of assistance or period products? </p>
                 <h1 class="display-4 justify-content-center">Let's Connect.</h1>
-                <p class="lead email-us">Email us at <a href="mailto:noshameinkc@gmail.com">NOSHAMEINKC@GMAIL.COM</a> or message us on our Facebook page.</p>
-                <button onClick={() => window.open("https://www.facebook.com/NoShameInKC")}><i className="fa fa-facebook-square"></i></button>
-                <button onClick={() => window.open("https://www.gmail.com")}><i className="fa fa-google"></i></button>
+                <p class="lead email-us">Email us at <a href="mailto:noshameinkc@gmail.com">NOSHAMEINKC@GMAIL.COM</a> or connect with us on Social Media.</p>
+                <button alt="facebook button"onClick={() => window.open("https://www.facebook.com/NoShameInKC")}><i class="fab fa-facebook"></i></button>
+                <button alt="twitter button"onClick={() => window.open("https://twitter.com/NoShameInKC")}><i class="fab fa-twitter"></i></button>
+                <button alt="Instagram button"onClick={() => window.open("https://instagram.com/noshameinkc?igshid=pwa10gubhftl")}><i class="fab fa-instagram"></i></button>
             </div>
         </Div>
     )

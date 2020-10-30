@@ -63,28 +63,40 @@ img {
 height: 150px;
 width: 200px;
 }
-.card {
+.card, .jumbotron {
     background: rgb(242,235,191);
     background: linear-gradient(90deg, rgba(242,235,191,1) 0%, rgba(250,249,241,1) 35%, rgba(242,235,191,1) 100%);
 }
-.details {
-
+.jumbotron {
+margin-bottom: 0;
+height: 75px;
 }
 p {
     font-size: large;
+}
+h2 {
+    text-align: center;
+    font-family: 'Slabo', serif;
+}
+.card-text, .card-title {
+    text-align:center;
+}
+.p, h4 {
+    font-family: 'Slabo', serif;
 }`
 const LocationCard = () => {
     return (
-        <Div>
+        <Div className="container mt-3 mb-5">
+            <header className="jumbotron"><h2 className="ml-5">Donation Bin Locations</h2></header>
             {locations.map(locations =>
-                <div class="card">
+                <div class="card mb-2">
                     <div class="card-body">  
                         <div className="row">
                             <div className="col-md-4"><img src={locations.picture} alt={locations.alt}></img></div>
                             <div className="col-md-6 details">
                                 <h4 class="card-title">{locations.name}</h4>
                                 <p class="card-text">{locations.address}</p>
-                                <p class="card-text">Hours:</p>
+                                <p class="card-text hours">Hours:</p>
                                 <p class="card-text">{locations.hours1}</p>
                                 <p class="card-text"><a href={locations.weblink}>{locations.weblink}</a></p>
                             </div>

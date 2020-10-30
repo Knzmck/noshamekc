@@ -12,14 +12,10 @@ export default function Navbar() {
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
-  background-color: #8CBEB2;
+  background-color: #e89c8f;
 
   .logo {
     padding: 15px 0;
-  }
-  .navlogo {
-      height: 100px;
-      width: 250px;
   }
     `
     return (

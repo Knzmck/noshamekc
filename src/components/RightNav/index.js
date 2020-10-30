@@ -25,6 +25,9 @@ const Ul = styled.ul`
       color: #fff;
     }
   }
+  .nav-text {
+    font-size: 23px;
+  }
 `;
 const RightNav = ({ open }) => {
     return (

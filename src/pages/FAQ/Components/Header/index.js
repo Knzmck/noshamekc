@@ -5,6 +5,7 @@ h1 {
     text-align: center;
     margin-top: 50px;
     font-weight: bold;
+    font-family: 'Slabo', serif;
 }
 `
 const Header = () => {
