@@ -9,6 +9,8 @@ p {
 .jumbotron{
     background: rgb(242,235,191);
     background: linear-gradient(90deg, rgba(242,235,191,1) 0%, rgba(250,249,241,1) 35%, rgba(242,235,191,1) 100%); 
+    padding-top: 25px;
+    padding-bottom: 15px;
 }
 `
 

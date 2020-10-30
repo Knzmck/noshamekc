@@ -77,17 +77,22 @@ p {
 h2 {
     text-align: center;
     font-family: 'Slabo', serif;
+     font-weight: 400;
 }
 .card-text, .card-title {
     text-align:center;
 }
 .p, h4 {
     font-family: 'Slabo', serif;
+}
+.jumbotron {
+    height: 100px;
+    padding-top: 30px;
 }`
 const LocationCard = () => {
     return (
         <Div className="container mt-3 mb-5">
-            <header className="jumbotron"><h2 className="ml-5">Donation Bin Locations</h2></header>
+            <header className="jumbotron"><h2 className="ml-5">Donation Locations</h2></header>
             {locations.map(locations =>
                 <div class="card mb-2">
                     <div class="card-body">  

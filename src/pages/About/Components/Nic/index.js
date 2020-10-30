@@ -16,7 +16,7 @@ h2, h5 {
 background: linear-gradient(90deg, rgba(249,239,172,1) 0%, rgba(247,245,212,0.9724264705882353) 39%, rgba(242,238,209,1) 100%);
 }
 .card-body {
-    background: rgb(249,239,172);
+background: rgb(249,239,172);
 background: linear-gradient(90deg, rgba(249,239,172,1) 0%, rgba(247,245,212,0.9724264705882353) 39%, rgba(242,238,209,1) 100%);
 }
 img {
@@ -26,12 +26,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 90%;
-}
-p {
-    font-size: large;
-}
-h2 {
-    font-family: 'Slabo', serif;
 }
 `
 const Nic = () => {

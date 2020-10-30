@@ -17,6 +17,7 @@ height: 310px;
 .btn {
     background-color: #F06060;
     font-size: x-large;
+    font-family: 'Slabo', serif;
 }
 .card-text {
     font-size: large;
