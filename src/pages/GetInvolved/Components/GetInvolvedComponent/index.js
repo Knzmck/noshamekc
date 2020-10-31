@@ -9,7 +9,7 @@ const cardInfo = [
         title: "Donation Locations",
         img: Products,
         alt: "Pads, Over-The-Counter Medications, Tampons",
-        desc: "We are always accepting donations big or small at our many donation locations. Look for the pink bins at our donation locations!",
+        desc: "We are always accepting donations big or small at our many donation locations. Look for the pink bins at!",
         btnName: "Donation Locations",
         btnLink: "/locations"
     },
@@ -28,7 +28,7 @@ const Connect = () => {
             {cardInfo.map(cardInfo =>
                 <div className="card">
                     <img className="card-img-top img" src={cardInfo.img} alt={cardInfo.alt}></img>
-                    <button className="btn btn-info"><Link class="link" to={cardInfo.btnLink}>{cardInfo.btnName}</Link></button>
+                    <button className="btn"><Link class="link" to={cardInfo.btnLink}>{cardInfo.btnName}</Link></button>
                     <div className="card-body">
                         <p className="card-text">
                             {cardInfo.desc}</p>

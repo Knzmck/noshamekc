@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
@@ -32,7 +32,7 @@ const Ul = styled.ul`
 const RightNav = ({ open }) => {
     return (
         <Ul open={open}>
-            <li><Link to="/" className="nav-text">Home</Link></li>
+            <li><Link className="link" to="/" className="nav-text">Home</Link></li>
             <li><Link to="/about" className="nav-text">About</Link></li>
             <li><Link to="/faq" className="nav-text">FAQ</Link></li>
             <li><Link to="/getinvolved" className="nav-text">Get Involved</Link></li>

@@ -9,6 +9,7 @@ h1 {
     font-size: 50px;
 }
 .jumbotron {
+    background-color: rgba(242,235,191,1);
     background: linear-gradient(90deg, rgba(242,235,191,1) 0%, rgba(242,235,191,1) 35%, rgba(242,235,191,1) 100%); 
     height: 100px;
     opacity: 90%;
