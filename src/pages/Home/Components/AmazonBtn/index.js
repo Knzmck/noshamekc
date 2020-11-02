@@ -18,7 +18,7 @@ a {
 const AmazonBtn = () => {
     return (
         <Figure>
-            <button className="btn btn-danger"><i class="fab fa-amazon"><a href="https://rb.gy/kukrgo"> Make an Amazon Donation</a></i></button>
+            <button className="btn btn-danger" alt="Amazon Donation Button"><i class="fab fa-amazon"><a href="https://rb.gy/kukrgo"> Make an Amazon Donation</a></i></button>
         </Figure>
     )
 }
