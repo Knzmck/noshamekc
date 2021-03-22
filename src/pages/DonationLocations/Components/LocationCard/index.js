@@ -5,7 +5,10 @@ import hoy from '../../assets/hoy.PNG';
 import Midtownkava from '../../assets/midtown kava.jpg';
 import smalter from '../../assets/smalter.PNG';
 import soa from '../../assets/soa.jpg';
+import mtsouth from '../../assets/mts.png';
+import mteast from '../../assets/mte.PNG';
 import styled from 'styled-components';
+
 
 const locations = [
     {
@@ -55,6 +58,22 @@ const locations = [
         weblink: "http://sotakc.com/",
         picture: soa,
         alt: "State of Art Framing"
+    },
+    {
+        name: "Mission Taco Joint - South Plaza",
+        address: "5060 Main St, Kansas City, MO 64112",
+        hours1: "Su-Th 11AM - 9PM, F - Sa 11AM - 10PM",
+        weblink: "https://www.missiontacojoint.com/",
+        picture: mtsouth,
+        alt: "Mission Taco South Plaza"
+    },
+    {
+        name: "Mission Taco Joint - East Crossroads",
+        address: "409 E 18th St, Kansas City, MO 64108",
+        hours1: "Everyday 11AM - 10PM",
+        weblink: "https://www.missiontacojoint.com/",
+        picture: mteast,
+        alt: "Mission Taco East Crossroads"
     }
 
 ]

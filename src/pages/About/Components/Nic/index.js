@@ -32,7 +32,7 @@ const Nic = () => {
     return (
         <Div>
             <section className="card">
-                <h2> A message from Nic Springer, founder of No Shame! </h2>
+                <h2 className="display-5"> A message from Nic Cain, founder of No Shame </h2>
                 <img src ={NicSpringer} alt="Nic Springer"></img>
                 <div className="card-body">
                     <p>"When I was 19, I struggled to find a stable home and provide for myself. Even with working 2 jobs and selling everything I owned I sometimes didn't have enough money to buy myself tampons or pads. I remember one time in particular that I had to resort to stealing tampons from my job’s stockroom. It was embarrassing and heartbreaking and it added unnecessary shame to my life. </p>

@@ -8,6 +8,10 @@ import Contact from "./pages/Contact/index";
 import FAQ from "./pages/FAQ/index";
 import Navbar from './components/Navbar/index';
 import DonationLocations from './pages/DonationLocations/index';
+import Thankyou from './pages/Thankyou/index';
+import Partners from './pages/Partners/index';
+import Contactq from './pages/Contactq/index';
+import CovidResources from './pages/CovidResources/index';
 
 
 function App() {
@@ -22,6 +26,10 @@ function App() {
           <Route path="/getinvolved" component={GetInvolved} />
           <Route path="/contact" component={Contact} />
           <Route path="/locations" component={DonationLocations} />
+          <Route path="/thankyou" component={Thankyou} />
+          <Route path="/partners" component={Partners} />
+          <Route path="/contactq" component={Contactq} />
+          <Route path="/covid19" component={CovidResources}/>
         </Switch>
       </div>
     </Router>

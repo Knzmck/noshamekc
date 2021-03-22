@@ -1,7 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
+import resources from '../../../../assets/covid_resources.pdf'
 
-const Figure = styled.figure `
+const Figure = styled.figure`
 .btn{
     font-size: x-large;
     background-color: #fa947e;
@@ -16,11 +17,11 @@ a {
     font-weight: 200 important!;
 }
 `
-const AmazonBtn = () => {
+const CovidBtn = () => {
     return (
         <Figure>
-            <button className="btn" alt="Amazon Donation Button" onClick={() => window.open("https://rb.gy/kukrgo")}><i class="fab fa-amazon"> Make an Amazon Donation</i></button>
+            <button className="btn" alt="Covid-19 Resources Button" onClick={() => window.open(resources)}><i class="fab fa-amazon"> Covid-19 Community Resources</i></button>
         </Figure>
     )
 }
-export default AmazonBtn;
+export default CovidBtn;

@@ -1,7 +1,6 @@
 import React from 'react';
 import Mission from './Components/Mission/index';
 import Nic from './Components/Nic/index';
-import Partners from './Components/Partners/index';
 import styled from 'styled-components';
 
 const Div = styled.div`
@@ -22,7 +21,6 @@ const About = () => {
         <Div className="container">
             <Mission />
             <Nic />
-            <Partners />
         </Div>
     )
 }

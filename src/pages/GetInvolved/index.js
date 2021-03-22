@@ -20,8 +20,7 @@ height: 310px;
 }
 .btn {
     border-radius: 4px;
-    background: rgb(230,179,170);
-    background: linear-gradient(90deg, rgba(230,179,170,1) 0%, rgba(232,156,143,1) 39%, rgba(212,126,112,1) 100%);
+    background: #fa947e;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -32,8 +31,11 @@ height: 310px;
     box-shadow: 1px 1px;
   }
   .btn:hover {
-    color: black;
-    text-decoration: underline;
+    color: white;
+  }
+  a:hover{
+    text-decoration:none;
+    color: white;
   }
   .link:hover {
     color: black;

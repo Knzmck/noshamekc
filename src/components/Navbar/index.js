@@ -1,5 +1,5 @@
 import React from "react";
-import Nslogo from "../../assets/nstiny.png";
+import Nslogo from "../../assets/ns_new_tiny2.png";
 import styled from 'styled-components';
 import './styles.css';
 import Burger from '../Burger/index';
@@ -12,7 +12,7 @@ export default function Navbar() {
   padding: 0 20px;
   display: flex;
   justify-content: space-between;
-  background-color: #e89c8f;
+  background-color: #fa947e;
 
   .logo {
     padding: 15px 0;
