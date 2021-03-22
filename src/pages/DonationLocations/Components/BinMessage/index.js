@@ -8,6 +8,9 @@ img {
 height: 250px;
 width: 160px;
 }
+h1, figcaption, p {
+    color: white;
+}
 `
 const BinMessage = () => {
     return (

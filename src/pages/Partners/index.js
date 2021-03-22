@@ -3,8 +3,7 @@ import styled from 'styled-components';
 
 const Div = styled.div`
     .card {
-        background: rgb(242,235,191);
-        background: linear-gradient(90deg, rgba(242,235,191,1) 0%, rgba(250,249,241,1) 35%, rgba(242,235,191,1) 100%); 
+        background-color:  #fa957ee0;
         text-align: center;
         justify-content: left;
         display: block;
@@ -14,8 +13,11 @@ const Div = styled.div`
         font-size: x-large;
     }
     a {
-        color: black;
+        color: white;
         text-decoration: underline;
+    }
+    p, h1 {
+        color: white;
     }
 `
 const partnerData = [
@@ -61,7 +63,7 @@ const Partners = () => {
         <Div className="container">
             <div className="card mb-5 mt-4">
                 <div className="card-body">
-                    <h1 className="display-4">Community Partner Organizations</h1>
+                    <h1 className="display-4">Community Partners</h1>
                     <div className="row">
                         <p className="col">We are so inspired and moved by our community partners who help us help those most struggling in Kansas City. You can learn more about our partners at their websites linked below. If you have a charitable organization and would like to become a No Shame partner, please <a href="/contact">contact us</a>.
                 </p>

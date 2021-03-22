@@ -9,6 +9,7 @@ const Div = styled.div`
 }
 h1 {
     align-text: center;
+    color: white;
 }
 button {
     padding: 25px;
@@ -21,18 +22,17 @@ svg {
   }
   button {
       border: transparent;
-      background: rgba(247,245,212,0.9724264705882353);
+      background: transparent;
         margin-right: 20px;
   }
   .email-us {
       font-size: x-large;
   }
   .jumbotron {
-    background: rgb(249,239,172);
-    background: linear-gradient(90deg, rgba(249,239,172,1) 0%, rgba(247,245,212,0.9724264705882353) 39%, rgba(242,238,209,1) 100%);
+    background-color:  #fa957ee0;
   }
   a {
-      color: red;
+      color: red !important;
   }
   a:hover {
       text-decoration: underline;
@@ -41,6 +41,7 @@ svg {
   }
   p, h1, a {
     font-family: 'Slabo 27px', serif;
+    color: white;
     },
   p {
     font-size: x-large;

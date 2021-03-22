@@ -7,14 +7,16 @@ const Figure = styled.figure `
     font-family: 'Slabo', serif;
     font-size: x-large;
     background-color: #fa947e;
+    color: white;
 }
 .link {
     color: white;
     font-family: 'Slabo', serif;
     font-size: x-large;
-}
-.link {
     font-weight: 200 !important;
+}
+.link:hover {
+    text-decoration: none;
 }
 `
 const DonateBtn = () => {

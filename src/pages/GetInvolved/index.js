@@ -22,7 +22,7 @@ height: 310px;
     border-radius: 4px;
     background: #fa947e;
     border: none;
-    color: #FFFFFF;
+    color: whitesmoke;
     text-align: center;
     font-size: x-large;
     padding: 10px;
@@ -33,16 +33,19 @@ height: 310px;
   .btn:hover {
     color: white;
   }
+  a {
+    color: red;
+  }
   a:hover{
     text-decoration:none;
-    color: white;
+    color: whitesmoke;
   }
   .link:hover {
     color: black;
   }
   .card {
-    background-color: rgba(242,235,191,1);
-    background: linear-gradient(90deg, rgba(242,235,191,1) 0%, rgba(242,235,191,1) 35%, rgba(242,235,191,1) 100%); 
+    background-color:  #fa957ee0;
+    color: white;
   }
 `
 const GetInvolved = () => {

@@ -3,8 +3,7 @@ import styled from 'styled-components';
 
 const Div = styled.div`
 .jumbotron {
-    background: rgb(249,239,172);
-    background: linear-gradient(90deg, rgba(249,239,172,1) 0%, rgba(247,245,212,0.9724264705882353) 39%, rgba(242,238,209,1) 100%);
+    background-color:  #fa957ee0;
   }
     a {
         color: white;
@@ -14,7 +13,6 @@ const Div = styled.div`
         color: white;
       }
       .btn:hover {
-          background-color:#fa947e; ;
           border: 5px solid transparent;
           cursor: pointer;
         }

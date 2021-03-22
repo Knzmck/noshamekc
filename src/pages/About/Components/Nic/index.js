@@ -8,16 +8,12 @@ h2, h5 {
     justify-content: center;
     padding-top: 20px;
     text-align: center;
+    color: white;
 }
 .card {
     margin-top: 50px;
     margin-bottom: 50px;
-    background: rgb(249,239,172);
-background: linear-gradient(90deg, rgba(249,239,172,1) 0%, rgba(247,245,212,0.9724264705882353) 39%, rgba(242,238,209,1) 100%);
-}
-.card-body {
-background: rgb(249,239,172);
-background: linear-gradient(90deg, rgba(249,239,172,1) 0%, rgba(247,245,212,0.9724264705882353) 39%, rgba(242,238,209,1) 100%);
+    background-color:  #fa957ee0;
 }
 img {
     height: 225px;
@@ -26,6 +22,9 @@ img {
     margin-left: auto;
     margin-right: auto;
     border-radius: 90%;
+}
+p {
+    color: white;
 }
 `
 const Nic = () => {

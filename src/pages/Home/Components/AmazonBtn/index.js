@@ -6,7 +6,7 @@ const Figure = styled.figure `
     font-size: x-large;
     background-color: #fa947e;
 }
-a {
+.btn {
     color: white;
     font-family: 'Slabo', serif;
     font-size: x-large;

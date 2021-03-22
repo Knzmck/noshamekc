@@ -5,6 +5,12 @@ const Section = styled.section`
 li {
     text-align: left !important;
 }
+li, h4 {
+    color: white;
+}
+a {
+    color: red;
+}
 `
 const periodItems = [
     "Tampons", "Pads & Liners", "Period Cups", "Bladder Control Pads", "Azo or OTC UTI pills", "New Underwear", "Wipes", "condoms"

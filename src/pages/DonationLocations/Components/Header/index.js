@@ -5,12 +5,15 @@ import BinMessage from '../BinMessage/index';
 const Div = styled.div`
 p {
     font-size: large;
+    color: white;
 }
 .jumbotron{
-    background: rgb(242,235,191);
-    background: linear-gradient(90deg, rgba(242,235,191,1) 0%, rgba(250,249,241,1) 35%, rgba(242,235,191,1) 100%); 
+    background-color:  #fa957ee0;
     padding-top: 25px;
     padding-bottom: 15px;
+}
+a {
+    color: red;
 }
 `
 

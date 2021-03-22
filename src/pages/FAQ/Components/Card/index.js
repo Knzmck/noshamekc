@@ -36,8 +36,7 @@ const Div = styled.div`
 .faq-row {
     margin-bottom: 15px;
     padding-bottom: 15px;
-    background-color: rgba(247,245,212,0.9724264705882353);
-    background-color: linear-gradient(90deg, rgba(249,239,172,1) 0%, rgba(247,245,212,0.9724264705882353) 39%, rgba(242,238,209,1) 100%);
+    background-color:  #fa957ee0;
 }
 .faq-row-wrapper { 
     margin-bottom: 50px;
@@ -50,6 +49,7 @@ const Div = styled.div`
     text-align: center; 
     font-family: 'Slabo', serif;
     font-size: x-large !important;
+    color: white;
 }
 .row-content-text {
     padding-top: 15px;
@@ -63,6 +63,10 @@ const Div = styled.div`
     font-color: red;
     font-family: 'Slabo', serif;
     font-size: large !important;
+    color: white !important;
+}
+a {
+    color: red !important;
 }
 .row-title {
 margin-left: 5%;

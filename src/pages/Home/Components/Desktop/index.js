@@ -52,10 +52,10 @@ h1 {
   }
   @media (max-width: 1103px) {
     .slogan {
-        top: 15%;
+        top: 25%;
       }
     .slogan2 {
-        top: 25%;
+        top: 35%;
     }
     .donate {
         top: 35%;
@@ -69,6 +69,9 @@ h1 {
         top: 45%;
         left: 29%;
     }
+  }
+  @media (max-width: 703px) {
+
   }
   `
 

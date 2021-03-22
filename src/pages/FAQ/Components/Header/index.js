@@ -4,10 +4,10 @@ const Div = styled.div`
 h1 {
     text-align: center;
     font-family: 'Slabo', serif;
+    color: white;
 }
 .jumbotron {
-    background: rgb(242,235,191);
-    background: linear-gradient(90deg, rgba(242,235,191,1) 0%, rgba(242,235,191,1) 35%, rgba(242,235,191,1) 100%); 
+    background-color:  #fa957ee0;
     padding-top: 15px;
     padding-bottom: 25px;
 }

@@ -83,8 +83,7 @@ height: 150px;
 width: 200px;
 }
 .card, .jumbotron {
-    background: rgb(242,235,191);
-    background: linear-gradient(90deg, rgba(242,235,191,1) 0%, rgba(250,249,241,1) 35%, rgba(242,235,191,1) 100%);
+    background-color:  #fa957ee0;
 }
 .jumbotron {
 margin-bottom: 0;
@@ -92,21 +91,27 @@ height: 75px;
 }
 p {
     font-size: large;
+    color: white;
 }
 h2 {
     text-align: center;
     font-family: 'Slabo', serif;
      font-weight: 400;
+     color: white;
 }
 .card-text, .card-title {
     text-align:center;
 }
 .p, h4 {
     font-family: 'Slabo', serif;
+    color: white;
 }
 .jumbotron {
     height: 100px;
     padding-top: 30px;
+}
+a {
+    color: red;
 }`
 const LocationCard = () => {
     return (
