@@ -19,6 +19,9 @@ const Div = styled.div`
     p, h1 {
         color: white;
     }
+    p {
+        font-size: large;
+    }
 `
 const partnerData = [
     {
