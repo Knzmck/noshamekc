@@ -1,6 +1,6 @@
 import React from 'react';
 import VolunteerImg from '../../../../assets/volunteer.jpg';
-import Products from '../../../../assets/bin.jpg'
+import Products from '../../../../assets/bin1.jpg'
 import StuffImg from '../../../../assets/stuff.jpg';
 import { Link } from 'react-router-dom';
 
