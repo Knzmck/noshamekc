@@ -16,14 +16,17 @@ const Div = styled.div`
           border: 5px solid transparent;
           cursor: pointer;
         }
+h4 {
+    color: white !important;
+}
 `
 
 function Contactq() {
     return (
         <Div className="container-fluid">
             <div className="jumbotron m-5">
-                <div className="text-center ">
-                    <h1 className="display-4 text-center mb-4 lead">How can we help you?</h1>
+                <div className="text-center">
+                    <h4 className="display-4 text-center mb-4 lead">How can we help you?</h4>
                     <p className="lead">
                         <div className="container">
                             <div className="row">
