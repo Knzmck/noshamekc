@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
-import Nslogo from "../../assets/ns_new_tiny2.png";
 const StyledBurger = styled.div`
   width: 2rem;
   height: 2rem;

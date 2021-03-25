@@ -22,7 +22,7 @@ const Figure = styled.figure `
 const DonateBtn = () => {
     return (
         <Figure>
-            <button className="btn" alt="donation location and information button"><i class="fas fa-hand-holding-heart"><Link class="link" to="/locations"> Donation Locations & Info</Link></i></button>
+            <button className="btn" alt="donation location and information button"><i className="fas fa-hand-holding-heart"><Link className="link" to="/locations"> Donation Locations & Info</Link></i></button>
         </Figure>
     )
 }
