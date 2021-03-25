@@ -7,6 +7,8 @@ import smalter from '../../assets/smalter.PNG';
 import soa from '../../assets/soa.jpg';
 import mtsouth from '../../assets/mts.png';
 import mteast from '../../assets/mte.PNG';
+import TENOP from '../../assets/10OP.PNG';
+import TENW from '../../assets/10WESTON.PNG';
 import styled from 'styled-components';
 
 
@@ -62,7 +64,7 @@ const locations = [
     {
         name: "Mission Taco Joint - South Plaza",
         address: "5060 Main St, Kansas City, MO 64112",
-        hours1: "Su-Th 11AM - 9PM, F - Sa 11AM - 10PM",
+        hours1: "Su - Th 11AM - 9PM, F - Sa 11AM - 10PM",
         weblink: "https://www.missiontacojoint.com/",
         picture: mtsouth,
         alt: "Mission Taco South Plaza"
@@ -74,6 +76,22 @@ const locations = [
         weblink: "https://www.missiontacojoint.com/",
         picture: mteast,
         alt: "Mission Taco East Crossroads"
+    },
+    {
+        name: "Ten Thousand Villages - Overland Park",
+        address: "7947 Santa Fe Dr, Overland Park, KS 66204",
+        hours1: "M - Sa 10AM - 5PM, Su 12 - 4PM",
+        weblink: "https://www.tenthousandvillages.com/",
+        picture: TENOP,
+        alt: "Ten Thousand Villages Overland Park"
+    },
+    {
+        name: "Ten Thousand Villages - Weston",
+        address: "523 Main St, Weston, MO 64098",
+        hours1: "M - W CLOSED, F - Sa 10AM - 4PM, Su 12 - 4PM",
+        weblink: "https://www.tenthousandvillages.com/",
+        picture: TENW,
+        alt: "Ten Thousand Villages"
     }
 
 ]
