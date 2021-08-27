@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const Figure = styled.figure `
 .btn{
     font-size: x-large;
-    background-color: #fa947e;
+    background-color: #FF9900;
 }
 .btn {
     color: white;

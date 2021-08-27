@@ -1,40 +1,34 @@
 import React from 'react';
-import './styles.css';
-import products from '../../assets/more.jpg'
+import products from '../../assets/watercolor.png';
+import banner from '../../../src/assets/ns_banner.png'
+import styled from 'styled-components';
 import DonateBtn from './Components/DonateBtn/index';
 import AmazonBtn from './Components/AmazonBtn/index';
 import CovidBtn from './Components/CovidBtn/index';
-import styled from 'styled-components';
+
 
 const Div = styled.div`
-.ns-img {
-    opacity: 50%;
-}
-.card {
+.jumbotron {
   background-image: url(${products});
   background-position: center;
-  text-align: center;
-  height: 750px;
-  width: 100%;
+  margin: auto;
+  height: 100%;
+  max-width: 80%;
+  padding-top: 1px;
 }
-h1, h2, h3 {
-  color: white;
-}
-h1 {
-  font-size: 75px;
-}
-h2 {
-  font-size: 45px;
+img {
+  max-width: 100%;
+  max-height: 365px;
+  box-shadow: 5px 5px 5px 5px;
+  color: whitesmoke;
 }
   `
 const Home = () => {
   return (
     <Div>
-      <div className="container-fluid mt-2"> 
-      <div className="card"> 
-      <h1 className="slogan mt-4">A Period Product Project</h1>
-      <h2 className="slogan2">for our underserved community </h2>
-      <h3 className="slogan2">~ Kansas City ~</h3>
+      <div className="container-fluid mt-2 justify-content-center"> 
+      <div className="jumbotron text-center">
+      <img src={banner} alt="No Shame. A Period Product Project for Our Underserved Communities"></img>
       <div className="donate btnn mt-4"><DonateBtn /></div>
       <div className="amazon btnn"><AmazonBtn /></div>
       <div className="covid btnn"><CovidBtn /></div>

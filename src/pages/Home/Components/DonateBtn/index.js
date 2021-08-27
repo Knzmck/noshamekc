@@ -6,7 +6,7 @@ const Figure = styled.figure `
 .btn{
     font-family: 'Slabo', serif;
     font-size: x-large;
-    background-color: #fa947e;
+    background-color: #b056bb;
     color: white;
 }
 .link {

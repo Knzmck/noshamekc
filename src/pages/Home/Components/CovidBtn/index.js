@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import resources from '../../../../assets/covid_resources.pdf'
+import resources from '../../../../assets/covid_resources_august.pdf'
 
 const Figure = styled.figure`
 .btn{
     font-size: x-large;
-    background-color: #fa947e;
+    background-color: #1183ca;
     color: white;
     font-family: 'Slabo', serif;
 }

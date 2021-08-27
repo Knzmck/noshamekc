@@ -16,7 +16,7 @@ import CovidResources from './pages/CovidResources/index';
 function App() {
   return (
     <Router>
-      <div class="background">
+      <div >
         <Navbar />
         <Switch>
           <Route exact={true} path="/" component={Home} />

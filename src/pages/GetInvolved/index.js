@@ -20,7 +20,7 @@ height: 310px;
 }
 .btn {
     border-radius: 4px;
-    background: #fa947e;
+    background: #FFBF00;
     border: none;
     color: whitesmoke;
     text-align: center;
@@ -28,7 +28,7 @@ height: 310px;
     padding: 10px;
     cursor: pointer;
     margin: 5px;
-    box-shadow: 1px 1px;
+    box-shadow: 2px 2px 2px 2px;
   }
   .btn:hover {
     color: white;
@@ -51,7 +51,6 @@ height: 310px;
 const GetInvolved = () => {
     return (
         <Div className="container mt-4 mb-5">
-            <Header />
             <GetInvolvedComponent />
         </Div>
     )

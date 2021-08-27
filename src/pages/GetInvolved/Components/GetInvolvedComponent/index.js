@@ -9,7 +9,7 @@ const cardInfo = [
         title: "Donation Locations",
         img: Products,
         alt: "Pads, Over-The-Counter Medications, Tampons",
-        desc: "We are always accepting donations big or small at our many donation locations. Look for the pink bins at!",
+        desc: "We are always accepting donations big or small at our many donation locations. Look for the pink bins at our donation locations!",
         btnName: "Donation Locations",
         btnLink: "/locations"
     },

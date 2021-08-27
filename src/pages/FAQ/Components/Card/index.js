@@ -11,7 +11,7 @@ const data = {
         {
             title: "Where can I drop off my donations?",
             content:
-                "At any of our " + "<a href=\'locations'\>donation locations<a>" + ". We are also able to pick up donations as needed- please email us to inquire about donation pickups.",
+                "At any of our " + "<a href=\'locations'\> donation locations." + "</a>" + " We are also able to pick up donations as needed- please email us to inquire about donation pickups.",
         },
         {
             title: "Who receives our donations?",

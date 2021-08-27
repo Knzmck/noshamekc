@@ -7,11 +7,11 @@ import { useHistory } from "react-router-dom";
 
 export default function Navbar() {
   const history = useHistory();
-  const routeChange = (e) => { 
-    let path = `/`; 
+  const routeChange = (e) => {
+    let path = `/`;
     history.push(path);
   }
-    const Nav = styled.nav`
+  const Nav = styled.nav`
   width: 100%;
   height: 90px;
   border-bottom: 2px solid #f1f1f1;
@@ -36,12 +36,12 @@ button: focus {
   box-shadow: none !important
 }
     `
-    return (
-        <Nav>
-            <button className="logo btn" onClick={routeChange}>
-                <img src={Nslogo} className="navlogo" alt="No Shame! Logo"></img>
-            </button>
-            <Burger />
-        </Nav>)
+  return (
+    <Nav>
+      <button className="logo btn" onClick={routeChange}>
+        <img src={Nslogo} className="navlogo" alt="No Shame! Logo"></img>
+      </button>
+      <Burger />
+    </Nav>)
 
 };
