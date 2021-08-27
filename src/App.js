@@ -11,27 +11,41 @@ import DonationLocations from './pages/DonationLocations/index';
 import Partners from './pages/Partners/index';
 import Contactq from './pages/Contactq/index';
 import CovidResources from './pages/CovidResources/index';
-
-
-function App() {
-  return (
-    <Router>
-      <div >
-        <Navbar />
-        <Switch>
-          <Route exact={true} path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/faq" component={FAQ} />
-          <Route path="/getinvolved" component={GetInvolved} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/locations" component={DonationLocations} />
-          <Route path="/partners" component={Partners} />
-          <Route path="/contactq" component={Contactq} />
-          <Route path="/covid19" component={CovidResources}/>
-        </Switch>
-      </div>
-    </Router>
-  )
+import { AnimatedSwitch } from 'react-router-transition';
+import styled from 'styled-components';
+const Div = styled.div`
+.switch-wrapper {
+  position: relative;
 }
+
+`
+
+  function App() {
+    return (
+      <Router>
+        <Div>
+        <div >
+          <Navbar />
+          <AnimatedSwitch
+          atEnter={{ opacity: 0 }}
+          atLeave={{ opacity: 0 }}
+          atActive={{ opacity: 1 }}
+          className="switch-wrapper"
+        >
+            <Route exact={true} path="/" component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/faq" component={FAQ} />
+            <Route path="/getinvolved" component={GetInvolved} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/locations" component={DonationLocations} />
+            <Route path="/partners" component={Partners} />
+            <Route path="/contactq" component={Contactq} />
+            <Route path="/covid19" component={CovidResources} />
+            </AnimatedSwitch>
+        </div>
+        </Div>
+      </Router>
+    )
+  }
 
 export default App;
